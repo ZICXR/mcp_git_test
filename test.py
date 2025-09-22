@@ -3,7 +3,7 @@
 def print_file():
     with open('test.py', 'r', encoding='utf-8') as file:
         content = file.read()
-        printf(content)
+        print(content)
 
 def main():
     print_file()
